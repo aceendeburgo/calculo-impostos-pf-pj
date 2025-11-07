@@ -98,7 +98,7 @@ O código também realiza o **tratamento de erros** para garantir que o usuário
 3. No terminal, acesse o diretório do arquivo e execute:
 
    ```bash
-   python IR.py
+   python3 IR.py
 Siga as instruções exibidas na tela.
 
 🎓 Finalidade Educacional
