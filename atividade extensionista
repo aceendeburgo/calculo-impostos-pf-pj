@@ -1,0 +1,36 @@
+import tkinter as tk
+import random
+
+palavras = ["teclado", "computador", "internet", "python", "mouse", "inclusão"]
+palavra_atual = random.choice(palavras)
+
+def verificar():
+    entrada = entrada_usuario.get()
+    if entrada.lower() == palavra_atual:
+        resultado["text"] = "Correto!"
+    else:
+        resultado["text"] = f"Errado. A palavra era: {palavra_atual}"
+    nova_palavra()
+
+def nova_palavra():
+    global palavra_atual
+    palavra_atual = random.choice(palavras)
+    palavra_label["text"] = palavra_atual
+    entrada_usuario.delete(0, tk.END)
+
+janela = tk.Tk()
+janela.title("Jogo de Digitação")
+
+palavra_label = tk.Label(janela, text=palavra_atual, font=("Helvetica", 24))
+palavra_label.pack(pady=10)
+
+entrada_usuario = tk.Entry(janela, font=("Helvetica", 18))
+entrada_usuario.pack(pady=10)
+
+botao_verificar = tk.Button(janela, text="Verificar", command=verificar)
+botao_verificar.pack(pady=10)
+
+resultado = tk.Label(janela, text="", font=("Helvetica", 14))
+resultado.pack(pady=10)
+
+janela.mainloop()

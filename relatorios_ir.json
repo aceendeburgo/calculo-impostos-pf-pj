@@ -1,0 +1,74 @@
+[
+  {
+    "nome": "João Silva",
+    "tipo": "PessoaFisica",
+    "data_calculo": "07/11/2025 11:24",
+    "renda_bruta_mensal": 3000.0,
+    "imposto_devido": 65.06025,
+    "aliquota_efetiva": 2.17,
+    "renda_liquida": 2934.93975
+  },
+  {
+    "nome": "Maria Santos",
+    "tipo": "PessoaFisica",
+    "data_calculo": "07/11/2025 11:24",
+    "renda_bruta_mensal": 8000.0,
+    "imposto_devido": 1977.297,
+    "aliquota_efetiva": 24.72,
+    "renda_liquida": 6022.7029999999995
+  },
+  {
+    "nome": "Carlos Oliveira",
+    "tipo": "PessoaFisica",
+    "data_calculo": "07/11/2025 11:24",
+    "renda_bruta_mensal": 1500.0,
+    "imposto_devido": 69.20025,
+    "aliquota_efetiva": 4.61,
+    "renda_liquida": 1430.79975
+  },
+  {
+    "nome": "Tech Solutions LTDA",
+    "tipo": "PessoaJuridica",
+    "data_calculo": "07/11/2025 11:24",
+    "renda_bruta_mensal": 50000.0,
+    "imposto_devido": 3840.0,
+    "aliquota_efetiva": 7.68,
+    "renda_liquida": 46160.0
+  },
+  {
+    "nome": "Consultoria Expert ME",
+    "tipo": "PessoaJuridica",
+    "data_calculo": "07/11/2025 11:24",
+    "renda_bruta_mensal": 25000.0,
+    "imposto_devido": 1920.0,
+    "aliquota_efetiva": 7.68,
+    "renda_liquida": 23080.0
+  },
+  {
+    "nome": "Indústria Forte SA",
+    "tipo": "PessoaJuridica",
+    "data_calculo": "07/11/2025 11:24",
+    "renda_bruta_mensal": 100000.0,
+    "imposto_devido": 32000.0,
+    "aliquota_efetiva": 32.0,
+    "renda_liquida": 68000.0
+  },
+  {
+    "nome": "Pequeno Empreendedor EIRELI",
+    "tipo": "PessoaJuridica",
+    "data_calculo": "07/11/2025 11:24",
+    "renda_bruta_mensal": 15000.0,
+    "imposto_devido": 900.0,
+    "aliquota_efetiva": 6.0,
+    "renda_liquida": 14100.0
+  },
+  {
+    "nome": "Comércio Popular LTDA",
+    "tipo": "PessoaJuridica",
+    "data_calculo": "07/11/2025 11:24",
+    "renda_bruta_mensal": 40000.0,
+    "imposto_devido": 768.0,
+    "aliquota_efetiva": 1.92,
+    "renda_liquida": 39232.0
+  }
+]
